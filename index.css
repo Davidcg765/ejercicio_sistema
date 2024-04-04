@@ -1,0 +1,66 @@
+.seccion_inicio {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.inicio {
+    margin-left: 50px;
+}
+
+.inicio h1 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.inicio h2 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.menu ul {
+    padding: 0;
+    margin-right: 20px;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu ul li:last-child {
+    margin-right: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.botones button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.botones button:hover {
+    background-color: #0056b3;
+}
